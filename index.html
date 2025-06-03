@@ -18,39 +18,101 @@
   </header>
 
   <!-- Navigation -->
-  <nav class="bg-white shadow-md">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-center space-x-10 font-semibold">
+  <nav class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-center space-x-8 font-semibold">
       <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#skills" class="hover:text-blue-600">Skills</a>
+      <a href="#experience" class="hover:text-blue-600">Experience</a>
       <a href="#projects" class="hover:text-blue-600">Projects</a>
+      <a href="#education" class="hover:text-blue-600">Education</a>
+      <a href="#certifications" class="hover:text-blue-600">Certifications</a>
       <a href="#contact" class="hover:text-blue-600">Contact</a>
     </div>
   </nav>
 
-  <!-- About Section -->
+  <!-- About Me -->
   <section id="about" class="max-w-4xl mx-auto mt-16 px-6 text-center">
     <h2 class="text-3xl font-bold text-blue-600 mb-6">About Me</h2>
     <p class="text-lg leading-relaxed">
-      Results-driven Full Stack Developer with 5+ years of experience designing, developing, and maintaining secure, scalable applications across finance and enterprise sectors. Specialized in Python (Flask, FastAPI, Django) with strong expertise in AWS, Docker, Kubernetes, and CI/CD pipelines. Skilled in real-time data processing and AI/ML tools for business process automation.
+      Results-driven Full Stack Python Developer with 5+ years of experience designing, developing, and maintaining secure, scalable, and high-performance applications. Specialized in backend development using Python (Flask, FastAPI, Django) and building microservices and event-driven architectures. Passionate about delivering cloud-native, HIPAA-compliant, and Agile-driven solutions.
     </p>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Skills -->
+  <section id="skills" class="max-w-6xl mx-auto mt-20 px-6">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-lg font-medium">
+      <div>Python</div>
+      <div>Java</div>
+      <div>JavaScript</div>
+      <div>Flask / Django / FastAPI</div>
+      <div>React.js / Vue.js / AngularJS</div>
+      <div>PostgreSQL / MySQL / MongoDB</div>
+      <div>Docker / Kubernetes</div>
+      <div>AWS (Lambda, EC2, S3)</div>
+      <div>RESTful APIs / GraphQL APIs</div>
+      <div>WebSockets / Server-Sent Events (SSE)</div>
+      <div>OAuth2 / JWT / SAML</div>
+      <div>CI/CD - Jenkins, GitHub Actions</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-6xl mx-auto mt-20 px-6">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Experience</h2>
+    <div class="space-y-8">
+      <div>
+        <h3 class="text-xl font-semibold">Full Stack Python Developer — American Express | Phoenix, AZ</h3>
+        <p class="text-gray-600">Feb 2024 – May 2025</p>
+        <ul class="list-disc list-inside text-lg mt-2 space-y-1">
+          <li>Developed microservices using FastAPI and Flask for real-time payment processing.</li>
+          <li>Built RESTful and GraphQL APIs for large-scale financial ops.</li>
+          <li>Implemented WebSockets and SSE for real-time transaction monitoring.</li>
+          <li>Deployed cloud-native solutions with Docker, Kubernetes, AWS CDK.</li>
+          <li>Secured APIs (OAuth2, JWT, SAML) ensuring PCI DSS compliance.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Python Developer — JMR | Bengaluru, India</h3>
+        <p class="text-gray-600">Mar 2016 – Dec 2019</p>
+        <ul class="list-disc list-inside text-lg mt-2 space-y-1">
+          <li>Developed REST APIs for stock tracking and warehouse management.</li>
+          <li>Built dashboards with AngularJS and jQuery for real-time inventory updates.</li>
+          <li>Designed database schemas (PostgreSQL, MySQL), implemented OAuth2 security.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
   <section id="projects" class="max-w-6xl mx-auto mt-20 px-6">
     <h2 class="text-3xl font-bold text-center text-blue-600 mb-10">Projects</h2>
     <div class="grid md:grid-cols-2 gap-8">
-      <!-- Project 1 -->
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl">
         <h3 class="text-2xl font-semibold mb-2">AI Chatbot (Master’s Dissertation)</h3>
-        <p class="mb-4">Developed an AI-powered chatbot using Flask, React.js, and NLP libraries like spaCy, NLTK, TensorFlow. Containerized the app with Docker for easy deployment.</p>
+        <p class="mb-4">Built AI chatbot using Flask backend, React.js frontend, with NLP libraries like spaCy, NLTK, and TensorFlow. Containerized using Docker.</p>
         <a href="https://github.com/Srikasula/chatbot_project" target="_blank" class="text-blue-500 font-semibold hover:underline">View on GitHub</a>
       </div>
-      <!-- Project 2 -->
       <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl">
         <h3 class="text-2xl font-semibold mb-2">Healthcare Dashboard</h3>
-        <p class="mb-4">Real-time healthcare data monitoring dashboard built with React.js and FastAPI backend, featuring live data updates and real-time analytics.</p>
+        <p class="mb-4">Real-time healthcare monitoring dashboard with React.js and FastAPI; real-time analytics and live updates.</p>
         <a href="https://github.com/Srikasula/healthcare-dashboard" target="_blank" class="text-blue-500 font-semibold hover:underline">View on GitHub</a>
       </div>
     </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-4xl mx-auto mt-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Education</h2>
+    <p class="text-lg mb-4">Master’s in Computer Information Systems — Rivier University, Nashua, NH (2022–2023)</p>
+    <p class="text-lg mb-4">Master’s in Computer Science — University of East London, UK (2020–2022)</p>
+    <p class="text-lg">Bachelor of Technology — Electronics & Communication Engineering — JNTUH, India (2013–2017)</p>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="max-w-4xl mx-auto mt-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Certifications</h2>
+    <p class="text-lg mb-2">Software Engineering Job Simulation — Wells Fargo Program | Forage (May 2025)</p>
   </section>
 
   <!-- Contact Section -->
